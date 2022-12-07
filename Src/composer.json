@@ -1,0 +1,16 @@
+{
+    "name": "julio/mvc",
+    "description": ":)",
+    "autoload": {
+        "psr-4": {
+            "App\\": "../App",
+            "Src\\" : "../Src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio"
+        }
+    ],
+    "require": {}
+}
