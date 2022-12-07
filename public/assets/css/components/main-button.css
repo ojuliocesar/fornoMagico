@@ -1,0 +1,18 @@
+.main-button {
+    border: none;
+
+    background-color: var(--color-blue);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+
+    width: 100px;
+    height: 45px;
+
+    cursor: pointer;
+    transition: var(--transition-cubic);
+}
+
+.main-button:hover {
+    transform: scale(1.07);
+}

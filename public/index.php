@@ -30,9 +30,26 @@ $core = new Core();
     <!-- CSS -->
     <link rel="stylesheet" href="<?= DIR_CSS ?>/reset.css">
 
-    <link rel="stylesheet" href="<?= DIR_CSS ?>/header/header.css">
+    <!-- Components -->
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/components/main-button.css">
 
-    <link rel="stylesheet" href="<?= DIR_CSS ?>/views/home/index.css">
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/components/main-search.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/components/main-title.css">
+
+    <!-- Pages -->
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/index.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/featured.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/recents.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/about.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/header.css">
+
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/footer.css">
 
     <link rel="stylesheet" href="<?= DIR_CSS ?>/style.css">
 

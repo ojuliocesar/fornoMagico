@@ -14,6 +14,8 @@ class HomeController extends Controller {
 
         $this->loadview('home');
 
+        $this->loadTemplate('footer');
+
     }
 
 }

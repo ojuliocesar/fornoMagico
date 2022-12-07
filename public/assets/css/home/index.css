@@ -11,18 +11,18 @@
     justify-content: center;
     gap: 30px;
 
-    background-image: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,45%)), url('../../../images/home/food-background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,48%),rgba(0,0,0,48%)), url('../../images/home/main-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .main h1 {
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 600;
 }
 
 .main p {
-    font-size: 29px;
+    font-size: 25px;
     font-weight: 400;
 }

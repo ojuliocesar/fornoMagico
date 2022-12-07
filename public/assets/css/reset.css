@@ -1,6 +1,7 @@
 :root {
-    --color-blue: #57bbfd;
+    --color-blue: #44b4ff;
     --color-black: #161C21;
+    --transition-cubic: transform 110ms cubic-bezier(.45,.97,.68,2.48);
 }
 
 * {
@@ -10,6 +11,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+:target{
+    scroll-margin-top: 12vh;
+}
+
 #container {
     color: var(--color-black);
 }
@@ -17,4 +26,16 @@
 ::selection {
     background-color: #46b5ff;
     color: #fff;
+}
+
+.main-section-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    padding: 0 30px;
+    padding-bottom: 60px;
+}
+
+ul, ol {
+    list-style-type: none;
 }
