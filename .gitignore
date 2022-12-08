@@ -1,1 +1,3 @@
 Src/vendor/
+config/config.php
+config/environment.php

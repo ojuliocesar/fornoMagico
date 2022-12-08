@@ -1,6 +1,6 @@
 <?php
 
-// Definição da Conexão com o Banco. development = localDatabase, production = serverDatabase
+// Definição da Conexão com o Banco; development = local database, production = server database
 define('ENVIRONMENT', 'development');
 
 // Caso o projeto esteja dentro de uma pasta e não na raiz do www/htdocs;
@@ -14,7 +14,7 @@ define('DIR_SERVER', $_SERVER['SERVER_NAME']);
 // HTTP
 define('DIR_PROTOCOL', ($_SERVER['SERVER_PORT'] != '80') ? 'https' : 'http');
 
-// http://localhost/
+// http://localhost/forno_magico
 define('DIR_PATH', DIR_PROTOCOL . '://' . DIR_SERVER . '/' . DIR_ROOT);
 
 // Caminhos relativos
