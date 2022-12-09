@@ -8,15 +8,20 @@
     padding: 10px 15px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 30%);
     margin-bottom: 100px;
+
+    overflow: hidden;
 }
 
 .main-title h2 {
     font-size: 25px;
     font-weight: 500;
     color: #fff;
+
+    animation-duration: 1s;
 }
 
 .main-title img {
     width: 90px;
     user-select: none;
+    animation-duration: 1s;
 }

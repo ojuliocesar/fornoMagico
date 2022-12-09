@@ -1,15 +1,15 @@
-<main class="main">
+<main class="main" id="main-title-subtitle">
     <h1>Forno Mágico</h1>
     <p>O seu site de receitas!</p>
 </main>
 
 <section class="main-featured">
-    <div class="main-title">
-        <img src="<?= DIR_IMG ?>/wheat-left.png" alt="Ícone de Trigo esquerdo">
+    <div class="main-title -featured" id="featured-title-wrapper">
+        <img src="<?= DIR_IMG ?>/wheat-left.png" alt="Ícone de Trigo esquerdo" id="title-icon-left">
 
         <h2>Destaques</h2>
 
-        <img src="<?= DIR_IMG ?>/wheat-right.png" alt="Ícone de Trigo direito">
+        <img src="<?= DIR_IMG ?>/wheat-right.png" alt="Ícone de Trigo direito" id="title-icon-right">
     </div>
 
     <div class="main-section-wrapper">
@@ -65,12 +65,12 @@
 </section>
 
 <section class="main-recents">
-    <div class="main-title">
-        <img src="<?= DIR_IMG ?>/wheat-left.png" alt="Ícone de Trigo esquerdo">
+    <div class="main-title -recents" id="recents-title-wrapper">
+        <img src="<?= DIR_IMG ?>/wheat-left.png" alt="Ícone de Trigo esquerdo" id="title-icon-left">
 
         <h2>Recentes</h2>
 
-        <img src="<?= DIR_IMG ?>/wheat-right.png" alt="Ícone de Trigo direito">
+        <img src="<?= DIR_IMG ?>/wheat-right.png" alt="Ícone de Trigo direito" id="title-icon-right">
     </div>
 
     <div class="main-section-wrapper -recents">

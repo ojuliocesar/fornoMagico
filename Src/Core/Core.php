@@ -21,7 +21,7 @@ class Core {
 
             array_shift($url);
 
-            $currentController = $url[0] . 'Controller';
+            $currentController = ucfirst($url[0]) . 'Controller';
 
             array_shift($url);
 

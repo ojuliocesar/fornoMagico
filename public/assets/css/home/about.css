@@ -27,10 +27,14 @@
     font-weight: 400;
 
     margin-bottom: 35px;
+    
+    animation-duration: 1.5s;
 }
 
 .main-about p {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 45px;
+
+    animation-duration: 1.5s;
 }

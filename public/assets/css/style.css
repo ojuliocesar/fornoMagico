@@ -1,9 +1,0 @@
-.main-icon {
-    font-weight: 400;
-    font-size: 24px;
-    user-select: none;
-}
-
-.main-icon > span {
-    color: var(--color-blue);
-}

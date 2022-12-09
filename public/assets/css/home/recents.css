@@ -1,9 +1,15 @@
+.main-recents .main-section-wrapper {
+    overflow: hidden;
+}
+
 .recents-recipes-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 
     gap: 45px 0;
+    
+    animation-duration: 2s;
 }
 
 .recents-item:nth-child(3n + 1) {
@@ -64,7 +70,7 @@
 
 .recents-item h3 {
     margin-bottom: 9px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
 }
 

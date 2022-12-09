@@ -16,6 +16,11 @@
     font-size: 35px;
 }
 
+.main-icon.-footer {
+
+    animation-duration: 1.5s;
+}
+
 .footer-info-wrapper {
     width: 100%;
     display: grid;
@@ -34,6 +39,9 @@
 .footer-info-wrapper .icons-wrapper {
     display: flex;
     gap: 23px;
+
+    animation-duration: 1.5s;
+    animation-delay: 0.3s;
 }
 
 .footer-info-wrapper .icons-wrapper img {

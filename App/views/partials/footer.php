@@ -1,5 +1,5 @@
 <footer class="main-footer" id="contact">
-    <h2 class="main-icon">Forno <span>Mágico</span></h2>
+    <h2 class="main-icon -footer">Forno <span>Mágico</span></h2>
 
     <div class="footer-info-wrapper">
         <ul>
