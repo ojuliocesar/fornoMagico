@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class NotfoundController {
 
-    public function index()
+    public function main()
     {
         echo "404";
     }

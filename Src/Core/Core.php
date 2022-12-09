@@ -33,7 +33,7 @@ class Core {
 
             } else {
 
-                $currentAction = 'index';
+                $currentAction = 'main';
             }
 
             if (count($url)) {
@@ -44,12 +44,12 @@ class Core {
         } else {
 
             $currentController = 'HomeController';
-            $currentAction = 'index';
+            $currentAction = 'main';
         }
 
         if (!file_exists("../App/Controllers/{$currentController}.php") || !method_exists("App\\Controllers\\{$currentController}", $currentAction)) {
             $currentController = 'NotfoundController';
-            $currentAction = 'index';
+            $currentAction = 'main';
         }
 
         $classController = "App\\Controllers\\{$currentController}";

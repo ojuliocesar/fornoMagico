@@ -7,7 +7,7 @@ use Src\Core\Controller;
 
 class HomeController extends Controller {
     
-    public function index()
+    public function main()
     {
 
         $this->loadTemplate('header');
