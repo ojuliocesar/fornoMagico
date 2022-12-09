@@ -20,5 +20,5 @@ define('DIR_PATH', DIR_PROTOCOL . '://' . DIR_SERVER . '/' . DIR_ROOT);
 // Caminhos relativos
 define('DIR_CSS', DIR_PATH . '/public/assets/css');
 define('DIR_IMG', DIR_PATH . '/public/assets/images');
-define('DIR_JVS', DIR_PATH . '/public/assets/js');
+define('DIR_JS', DIR_PATH . '/public/assets/js');
 define('DIR_FNT', DIR_PATH . '/public/assets/fonts');
