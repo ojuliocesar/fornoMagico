@@ -43,3 +43,7 @@ body {
 ul, ol {
     list-style-type: none;
 }
+
+a {
+    color: var(--color-black);
+}

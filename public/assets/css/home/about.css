@@ -10,7 +10,7 @@
     justify-content: center;
 
     width: 100%;
-    height: 73vh;
+    height: 74vh;
 
     background-image: linear-gradient(rgba(0, 0, 0, 55%), rgba(0, 0, 0, 60%)), url('../../images/home/background-about.png');
     background-size: cover;
@@ -28,7 +28,8 @@
 
     margin-bottom: 35px;
     
-    animation-duration: 1.5s;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
 }
 
 .main-about p {
@@ -36,5 +37,6 @@
     font-weight: 400;
     line-height: 45px;
 
-    animation-duration: 2s;
+    animation-duration: 1.5s;
+    animation-delay: 0.2s;
 }

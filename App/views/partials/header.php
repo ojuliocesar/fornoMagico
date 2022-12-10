@@ -1,9 +1,11 @@
 <header class="main-header">
     <div class="nav-wrapper">
-        <h2 class="main-icon">Forno <span>Mágico</span></h2>
+        <a href="<?= DIR_PATH ?>/home">
+            <h2 class="main-icon">Forno <span>Mágico</span></h2>
+        </a>
 
         <nav>
-            <a href="<?= DIR_PATH ?>">Página Inicial</a>
+            <a href="<?= DIR_PATH ?>/home">Página Inicial</a>
             <a href="#">Categorias</a>
             <a href="#about">Sobre</a>
             <a href="#contact">Contato</a>

@@ -25,6 +25,10 @@
     gap: 55px;
 }
 
+.main-header .nav-wrapper > a {
+    text-decoration: none;
+}
+
 .main-header .nav-wrapper nav {
     flex: 1;
     min-width: 380px;
@@ -38,8 +42,7 @@
 
     font-size: 16px;
     font-weight: 400;
-
-    color: var(--color-black);
+    
     position: relative;
     padding: 10px 0;
 }
