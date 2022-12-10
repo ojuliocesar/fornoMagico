@@ -18,7 +18,7 @@
 
 .main-icon.-footer {
 
-    animation-duration: 1.5s;
+    animation-duration: 2s;
 }
 
 .footer-info-wrapper {
@@ -40,7 +40,7 @@
     display: flex;
     gap: 23px;
 
-    animation-duration: 1.5s;
+    animation-duration: 2s;
     animation-delay: 0.3s;
 }
 

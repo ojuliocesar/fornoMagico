@@ -10,7 +10,7 @@ $('.main-title.-featured').waypoint(function(direction) {
         $('#featured-title-wrapper  #title-icon-right').removeClass('animate__animated animate__fadeInRight');
     }
 
-},{
+}, {
     offset: '99%'
 })
 
@@ -24,8 +24,8 @@ $('.main-featured .main-section-wrapper').waypoint(function(direction) {
         $('.main-featured .featured-recipes-wrapper').removeClass('animate__animated animate__fadeInUp');
     }
 
-},{
-    offset: '800px'
+}, {
+    offset: '700px'
 })
 
 $('.main-title.-recents').waypoint(function(direction) {
@@ -40,7 +40,7 @@ $('.main-title.-recents').waypoint(function(direction) {
         $('#recents-title-wrapper  #title-icon-right').removeClass('animate__animated animate__fadeInRight');
     }
 
-},{
+}, {
     offset: '760px'
 })
 
@@ -56,8 +56,8 @@ $('.main-recents .main-section-wrapper').waypoint(function(direction) {
         $('.main-recents .recents-item').removeClass('animate__animated animate__fadeInUp');
     }
 
-},{
-    offset: '800px'
+}, {
+    offset: '700px'
 })
 
 $('.main-about').waypoint(function(direction) {
@@ -72,25 +72,11 @@ $('.main-about').waypoint(function(direction) {
         $('.main-about p').removeClass('animate__animated animate__fadeInUp');
     }
 
-},{
-    offset: '630px'
+}, {
+    offset: '550px'
 })
 
-$('.main-about').waypoint(function(direction) {
-
-    if(direction == "down"){
-        $('.main-about h2').addClass('animate__animated animate__fadeInUp');
-        $('.main-about p').addClass('animate__animated animate__fadeInUp');
-    }
-
-    if(direction == "up"){
-        $('.main-about h2').removeClass('animate__animated animate__fadeInUp');
-        $('.main-about p').removeClass('animate__animated animate__fadeInUp');
-    }
-
-},{
-    offset: '580px'
-})
+$('.main-footer h2').css('opacity',0);
 
 $('.main-footer').waypoint(function(direction) {
 
@@ -106,6 +92,6 @@ $('.main-footer').waypoint(function(direction) {
         $('.main-footer .icons-wrapper').removeClass('animate__animated animate__bounceIn');
     }
 
-},{
-    offset: '750px'
+}, {
+    offset: '670px'
 })

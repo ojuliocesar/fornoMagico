@@ -8,8 +8,6 @@
     justify-items: center;
 
     gap: 45px 0;
-    
-    animation-duration: 2s;
 }
 
 .recents-item:nth-child(3n + 1) {
@@ -28,6 +26,8 @@
     max-width: 350px;
     width: 88%;
     object-fit: cover;
+
+    animation-duration: 1.3s;
 }
 
 .recents-item .image-wrapper  {
