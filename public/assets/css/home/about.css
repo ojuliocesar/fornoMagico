@@ -29,7 +29,7 @@
     margin-bottom: 35px;
     
     animation-duration: 1s;
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 .main-about p {
@@ -38,5 +38,5 @@
     line-height: 45px;
 
     animation-duration: 1.5s;
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
