@@ -2,11 +2,13 @@ $('.main-title.-featured').waypoint(function(direction) {
 
     if(direction == "down"){
         $('#featured-title-wrapper #title-icon-left').addClass('animate__animated animate__fadeInLeft');
+        $('#featured-title-wrapper h2').addClass('animate__animated animate__fadeIn')
         $('#featured-title-wrapper #title-icon-right').addClass('animate__animated animate__fadeInRight');
     }
 
     if(direction == "up"){
         $('#featured-title-wrapper #title-icon-left').removeClass('animate__animated animate__fadeInLeft'); 
+        $('#featured-title-wrapper h2').removeClass('animate__animated animate__fadeIn')
         $('#featured-title-wrapper  #title-icon-right').removeClass('animate__animated animate__fadeInRight');
     }
 
@@ -14,50 +16,22 @@ $('.main-title.-featured').waypoint(function(direction) {
     offset: '99%'
 })
 
-$('.main-featured .main-section-wrapper').waypoint(function(direction) {
-
-    if(direction == "down"){
-        $('.main-featured .featured-recipes-wrapper').addClass('animate__animated animate__fadeInUp');
-    }
-
-    if(direction == "up"){
-        $('.main-featured .featured-recipes-wrapper').removeClass('animate__animated animate__fadeInUp');
-    }
-
-}, {
-    offset: '110%'
-})
-
 $('.main-title.-recents').waypoint(function(direction) {
 
     if(direction == "down"){
         $('#recents-title-wrapper #title-icon-left').addClass('animate__animated animate__fadeInLeft'); 
+        $('#recents-title-wrapper h2').addClass('animate__animated animate__fadeIn')
         $('#recents-title-wrapper #title-icon-right').addClass('animate__animated animate__fadeInRight');
     }
 
     if(direction == "up"){
         $('#recents-title-wrapper #title-icon-left').removeClass('animate__animated animate__fadeInLeft');  
+        $('#recents-title-wrapper h2').removeClass('animate__animated animate__fadeIn')
         $('#recents-title-wrapper  #title-icon-right').removeClass('animate__animated animate__fadeInRight');
     }
 
 }, {
     offset: '100%'
-})
-
-$('.main-recents .recents-item').css('opacity',0);
-
-$('.main-recents .main-section-wrapper').waypoint(function(direction) {
-
-    if(direction == "down"){
-        $('.main-recents .recents-item').addClass('animate__animated animate__fadeInUp');
-    }
-
-    if(direction == "up"){
-        $('.main-recents .recents-item').removeClass('animate__animated animate__fadeInUp');
-    }
-
-}, {
-    offset: '120%'
 })
 
 $('.main-about').waypoint(function(direction) {

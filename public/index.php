@@ -43,7 +43,7 @@ $core = new Core();
     <link rel="stylesheet" href="<?= DIR_CSS ?>/components/main-icon.css">
 
     <!-- Pages -->
-    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/index.css">
+    <link rel="stylesheet" href="<?= DIR_CSS ?>/home/main.css">
 
     <link rel="stylesheet" href="<?= DIR_CSS ?>/home/featured.css">
 
